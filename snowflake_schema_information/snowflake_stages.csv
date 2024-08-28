@@ -1,0 +1,22 @@
++-------------------------------+-----------------------+---------------+-----------------------+--------------------------------------------------------------------------------+-----------------+--------------------+--------------+---------+------------+----------+-------+----------------------+---------------------+----------+-----------------+-------------------+
+| created_on                    | name                  | database_name | schema_name           | url                                                                            | has_credentials | has_encryption_key | owner        | comment | region     | type     | cloud | notification_channel | storage_integration | endpoint | owner_role_type | directory_enabled |
+|-------------------------------+-----------------------+---------------+-----------------------+--------------------------------------------------------------------------------+-----------------+--------------------+--------------+---------+------------+----------+-------+----------------------+---------------------+----------+-----------------+-------------------|
+| 2024-08-27 23:29:20.518 -0700 | INSTACART_FINAL_STAGE | DEMO_SALES    | INSTACART_DIMENSIONAL | s3://dimensional-modelling-instacart-snowflake/instacart_market_analysis_data/ | N               | N                  | ACCOUNTADMIN |         | ap-south-1 | EXTERNAL | AWS   | NULL                 | INSTACART_STAGE     | NULL     | ROLE            | N                 |
++-------------------------------+-----------------------+---------------+-----------------------+--------------------------------------------------------------------------------+-----------------+--------------------+--------------+---------+------------+----------+-------+----------------------+---------------------+----------+-----------------+-------------------+
+1 Row(s) produced. Time Elapsed: 0.232s
+
+
+
+Files under the stages
+
++---------------------------------------------------------------------------------------------------------+-----------+-------------------------------------+-------------------------------+
+| name                                                                                                    |      size | md5                                 | last_modified                 |
+|---------------------------------------------------------------------------------------------------------+-----------+-------------------------------------+-------------------------------|
+| s3://dimensional-modelling-instacart-snowflake/instacart_market_analysis_data/aisles.csv                |      2603 | bc49e521faa60e1542d4a94cac3e3bb0    | Wed, 28 Aug 2024 05:45:35 GMT |
+| s3://dimensional-modelling-instacart-snowflake/instacart_market_analysis_data/departments.csv           |       270 | 18d5219db49bd50b403d39016c3ecdc5    | Wed, 28 Aug 2024 05:45:36 GMT |
+| s3://dimensional-modelling-instacart-snowflake/instacart_market_analysis_data/order_products__prior.csv | 577550706 | 32b6e53bf037c87a10c27ce47d083af8-34 | Wed, 28 Aug 2024 05:45:35 GMT |
+| s3://dimensional-modelling-instacart-snowflake/instacart_market_analysis_data/order_products__train.csv |  24680147 | ec69750c6f9adeecea231233f54a8db4-2  | Wed, 28 Aug 2024 05:45:35 GMT |
+| s3://dimensional-modelling-instacart-snowflake/instacart_market_analysis_data/orders.csv                | 108968645 | dd3f7410904cebe8a61dc10c4982ef51-7  | Wed, 28 Aug 2024 05:45:35 GMT |
+| s3://dimensional-modelling-instacart-snowflake/instacart_market_analysis_data/products.csv              |   2166953 | dfcfded9d4af77d8b747913a4cbe6ffc    | Wed, 28 Aug 2024 05:45:37 GMT |
++---------------------------------------------------------------------------------------------------------+-----------+-------------------------------------+-------------------------------+
+6 Row(s) produced. Time Elapsed: 3.070s
